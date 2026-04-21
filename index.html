@@ -873,10 +873,8 @@
       <p style="font-size:0.85rem;color:rgba(248,250,252,0.5);margin-bottom:28px;">We'll get back to you as soon as possible.</p>
 
       <form id="quote-form" onsubmit="handleSubmit(event)" style="display:flex;flex-direction:column;gap:16px;">
-        <input type="hidden" name="access_key" value="20362380-183a-4351-9aa8-f4951e9bdd28" />
-        <input type="hidden" name="subject" value="New Quote Request — MaxLoad Moving Co." />
-        <input type="hidden" name="from_name" value="MaxLoad Moving Co. Website" />
-        <input type="hidden" name="replyto" id="reply-to-field" value="" />
+        <input type="hidden" name="_subject" value="New Quote Request — MaxLoad Moving Co." />
+        <input type="hidden" name="_replyto" id="reply-to-field" value="" />
         <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;">
           <div>
             <label style="display:block;font-size:0.78rem;font-weight:600;letter-spacing:0.05em;color:rgba(248,250,252,0.55);text-transform:uppercase;margin-bottom:6px;">First Name</label>
@@ -1050,9 +1048,7 @@
   document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
 
   // ── Form submit via Formspree ────────────────────────
-  // Replace YOUR_WEB3FORMS_ACCESS_KEY in the hidden field above
-  // Get a key at web3forms.com — enter admin@maxloadmovingco.com, check your inbox
-  const FORMSPREE_ENDPOINT = 'https://api.web3forms.com/submit';
+  const FORMSPREE_ENDPOINT = 'https://formspree.io/f/mojykvzr';
 
   async function handleSubmit(e) {
     e.preventDefault();
