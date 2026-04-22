@@ -1121,6 +1121,25 @@
   }, { threshold: 0.12 });
   document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
 
+  // ── Back to Top ──────────────────────────────────────
+  (function() {
+    const btn = document.getElementById('back-to-top');
+    window.addEventListener('scroll', function() {
+      const show = window.scrollY > 400;
+      btn.style.opacity = show ? '1' : '0';
+      btn.style.transform = show ? 'translateY(0)' : 'translateY(12px)';
+      btn.style.pointerEvents = show ? 'all' : 'none';
+    }, { passive: true });
+    btn.addEventListener('mouseover', function() {
+      btn.style.background = 'rgba(26,111,232,0.85)';
+      btn.style.boxShadow = '0 6px 24px rgba(26,111,232,0.4),0 0 0 1px rgba(26,111,232,0.35)';
+    });
+    btn.addEventListener('mouseout', function() {
+      btn.style.background = 'rgba(15,23,42,0.85)';
+      btn.style.boxShadow = '0 4px 20px rgba(0,0,0,0.4),0 0 0 1px rgba(26,111,232,0.15)';
+    });
+  })();
+
   // ── Quote Modal ──────────────────────────────────────
   function openQuoteModal() {
     const overlay = document.getElementById('quote-modal-overlay');
@@ -1184,6 +1203,11 @@
     }
   }
 </script>
+
+<!-- ── Back to Top ───────────────────────────────────────── -->
+<button id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top" style="position:fixed;bottom:28px;right:28px;z-index:900;width:44px;height:44px;border-radius:50%;border:1px solid rgba(26,111,232,0.4);background:rgba(15,23,42,0.85);backdrop-filter:blur(8px);color:#fff;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(0,0,0,0.4),0 0 0 1px rgba(26,111,232,0.15);opacity:0;transform:translateY(12px);transition:opacity 0.25s ease,transform 0.25s cubic-bezier(.34,1.56,.64,1),background 0.15s ease,box-shadow 0.15s ease;pointer-events:none;">
+  <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" d="M5 15l7-7 7 7"/></svg>
+</button>
 
 <!-- ── Quote Options Modal ────────────────────────────────── -->
 <div id="quote-modal-overlay" class="quote-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="quote-modal-title" onclick="if(event.target===this)closeQuoteModal()">
