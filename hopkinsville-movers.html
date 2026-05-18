@@ -3,16 +3,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Movers in Bowling Green, KY | MaxLoad Moving Co.</title>
-  <meta name="description" content="MaxLoad Moving Co. serves Bowling Green, KY with licensed & insured local and interstate moving. Residential, commercial, and specialty moves. Call (270) 893-3360 for a free quote." />
-  <link rel="canonical" href="https://maxloadmovingco.com/bowling-green-movers.html" />
+  <title>Movers in Hopkinsville, KY | MaxLoad Moving Co.</title>
+  <meta name="description" content="MaxLoad Moving Co. provides licensed & insured moving services in Hopkinsville, KY and Christian County. Local, interstate, and specialty moves. Call (270) 893-3360 for a free quote." />
+  <link rel="canonical" href="https://maxloadmovingco.com/hopkinsville-movers.html" />
   <link rel="icon" href="/brand_assets/Maxload-logo-update.PNG" type="image/png" />
   <link rel="apple-touch-icon" href="/brand_assets/Maxload-logo-update.PNG" />
 
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Movers in Bowling Green, KY | MaxLoad Moving Co." />
-  <meta property="og:description" content="Licensed & insured movers serving Bowling Green, KY. Local, interstate, and specialty moving. Get a free quote today." />
-  <meta property="og:url" content="https://maxloadmovingco.com/bowling-green-movers.html" />
+  <meta property="og:title" content="Movers in Hopkinsville, KY | MaxLoad Moving Co." />
+  <meta property="og:description" content="Licensed & insured movers serving Hopkinsville, KY and Christian County. Local, interstate, and specialty moving. Get a free quote today." />
+  <meta property="og:url" content="https://maxloadmovingco.com/hopkinsville-movers.html" />
   <meta property="og:image" content="https://maxloadmovingco.com/brand_assets/Maxload-logo-update.PNG" />
   <meta property="og:site_name" content="MaxLoad Moving Co." />
 
@@ -21,10 +21,14 @@
     "@context": "https://schema.org",
     "@type": "MovingCompany",
     "name": "MaxLoad Moving Co.",
-    "description": "Professional, licensed and insured movers serving Bowling Green, KY. Local and interstate moving services.",
-    "url": "https://maxloadmovingco.com/bowling-green-movers.html",
+    "description": "Professional, licensed and insured movers serving Hopkinsville, KY and Christian County. Local and interstate moving services.",
+    "url": "https://maxloadmovingco.com/hopkinsville-movers.html",
     "telephone": "+12708933360",
     "email": "admin@maxloadmovingco.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://maxloadmovingco.com/brand_assets/Maxload-logo-update.PNG"
+    },
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Russellville",
@@ -32,7 +36,7 @@
       "postalCode": "42276",
       "addressCountry": "US"
     },
-    "areaServed": { "@type": "City", "name": "Bowling Green", "containedInPlace": { "@type": "State", "name": "Kentucky" } },
+    "areaServed": { "@type": "City", "name": "Hopkinsville", "containedInPlace": { "@type": "State", "name": "Kentucky" } },
     "priceRange": "$$",
     "aggregateRating": {
       "@type": "AggregateRating",
@@ -49,7 +53,7 @@
     "@type": "BreadcrumbList",
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://maxloadmovingco.com/" },
-      { "@type": "ListItem", "position": 2, "name": "Bowling Green, KY Movers", "item": "https://maxloadmovingco.com/bowling-green-movers.html" }
+      { "@type": "ListItem", "position": 2, "name": "Hopkinsville, KY Movers", "item": "https://maxloadmovingco.com/hopkinsville-movers.html" }
     ]
   }
   </script>
@@ -63,17 +67,8 @@
     tailwind.config = {
       theme: {
         extend: {
-          colors: {
-            brand: {
-              blue: '#1A6FE8', blueDk: '#1255C0', blueLt: '#3D8EF5',
-              navy: '#0B1120', dark: '#0F172A', mid: '#1E293B',
-              silver: '#C8D0DC', gold: '#C4902A',
-            }
-          },
-          fontFamily: {
-            display: ['Barlow Condensed', 'sans-serif'],
-            body: ['Inter', 'sans-serif'],
-          }
+          colors: { brand: { blue: '#1A6FE8', blueDk: '#1255C0', blueLt: '#3D8EF5', navy: '#0B1120', dark: '#0F172A' } },
+          fontFamily: { display: ['Barlow Condensed', 'sans-serif'], body: ['Inter', 'sans-serif'] }
         }
       }
     }
@@ -83,55 +78,32 @@
     *, *::before, *::after { box-sizing: border-box; }
     html { scroll-behavior: smooth; }
     body { font-family: 'Inter', sans-serif; background: #0F172A; color: #F8FAFC; }
-
-    .nav-link {
-      font-size: 0.875rem; font-weight: 500; color: rgba(248,250,252,0.65);
-      text-decoration: none; letter-spacing: 0.02em;
-      transition: color 0.15s ease;
-    }
+    .nav-link { font-size: 0.875rem; font-weight: 500; color: rgba(248,250,252,0.65); text-decoration: none; letter-spacing: 0.02em; transition: color 0.15s ease; }
     .nav-link:hover { color: #fff; }
-
     .btn-primary {
       display: inline-flex; align-items: center; gap: 8px;
       background: linear-gradient(135deg, #1A6FE8 0%, #1255C0 100%);
       color: #fff; font-family: 'Barlow Condensed', sans-serif;
-      font-weight: 800; font-size: 1rem; letter-spacing: 0.06em;
-      text-transform: uppercase; padding: 14px 28px; border-radius: 8px;
-      border: none; cursor: pointer; text-decoration: none;
+      font-weight: 800; font-size: 1rem; letter-spacing: 0.06em; text-transform: uppercase;
+      padding: 14px 28px; border-radius: 8px; border: none; cursor: pointer; text-decoration: none;
       box-shadow: 0 4px 20px rgba(26,111,232,0.35), 0 1px 3px rgba(0,0,0,0.3);
-      transition: transform 0.2s cubic-bezier(.34,1.56,.64,1), box-shadow 0.2s ease, background 0.15s ease;
+      transition: transform 0.2s cubic-bezier(.34,1.56,.64,1), box-shadow 0.2s ease;
     }
-    .btn-primary:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 8px 32px rgba(26,111,232,0.5), 0 2px 6px rgba(0,0,0,0.3);
-      background: linear-gradient(135deg, #2278f0 0%, #1A6FE8 100%);
-    }
+    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(26,111,232,0.5); }
     .btn-primary:active { transform: translateY(0); }
     .btn-primary:focus-visible { outline: 2px solid #3D8EF5; outline-offset: 3px; }
-
     .service-card {
-      background: rgba(255,255,255,0.04);
-      border: 1px solid rgba(255,255,255,0.09);
-      border-radius: 16px;
-      padding: 28px 24px;
+      background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.09);
+      border-radius: 16px; padding: 28px 24px;
       transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s cubic-bezier(.34,1.56,.64,1);
     }
-    .service-card:hover {
-      background: rgba(26,111,232,0.09);
-      border-color: rgba(26,111,232,0.35);
-      transform: translateY(-3px);
-    }
-
+    .service-card:hover { background: rgba(26,111,232,0.09); border-color: rgba(26,111,232,0.35); transform: translateY(-3px); }
     .section-label {
-      display: inline-block;
-      font-family: 'Barlow Condensed', sans-serif;
-      font-weight: 700; font-size: 0.75rem; letter-spacing: 0.15em;
-      text-transform: uppercase; color: #1A6FE8;
-      background: rgba(26,111,232,0.1);
-      border: 1px solid rgba(26,111,232,0.25);
+      display: inline-block; font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 700; font-size: 0.75rem; letter-spacing: 0.15em; text-transform: uppercase;
+      color: #1A6FE8; background: rgba(26,111,232,0.1); border: 1px solid rgba(26,111,232,0.25);
       padding: 4px 12px; border-radius: 20px;
     }
-
     .breadcrumb a { color: rgba(248,250,252,0.5); text-decoration: none; font-size: 0.8rem; }
     .breadcrumb a:hover { color: #fff; }
     .breadcrumb span { color: rgba(248,250,252,0.3); font-size: 0.8rem; margin: 0 6px; }
@@ -144,18 +116,14 @@
 <header style="position:sticky;top:0;z-index:50;background:rgba(11,17,32,0.92);backdrop-filter:blur(14px);border-bottom:1px solid rgba(255,255,255,0.07);">
   <div style="max-width:1200px;margin:0 auto;padding:0 24px;display:flex;align-items:center;justify-content:space-between;height:72px;">
     <a href="/" style="display:flex;align-items:center;gap:10px;text-decoration:none;flex-shrink:0;">
-      <img src="brand_assets/drive-download-20260417T023334Z-3-001/updated-logo.jpeg"
-           alt="MaxLoad Moving Co. logo"
-           style="height:54px;width:auto;mix-blend-mode:screen;" />
+      <img src="brand_assets/drive-download-20260417T023334Z-3-001/updated-logo.jpeg" alt="MaxLoad Moving Co. logo" style="height:54px;width:auto;mix-blend-mode:screen;" />
     </a>
     <nav style="display:flex;align-items:center;gap:28px;">
       <a href="/#services" class="nav-link">Services</a>
       <a href="/#about"    class="nav-link">About</a>
       <a href="/#reviews"  class="nav-link">Reviews</a>
       <a href="/#faq"      class="nav-link">FAQs</a>
-      <a href="tel:2708933360" class="btn-primary" style="padding:10px 20px;font-size:0.875rem;">
-        (270) 893-3360
-      </a>
+      <a href="tel:2708933360" class="btn-primary" style="padding:10px 20px;font-size:0.875rem;">(270) 893-3360</a>
     </nav>
   </div>
 </header>
@@ -164,114 +132,95 @@
 <section style="position:relative;padding:80px 24px 96px;background:#0B1120;overflow:hidden;">
   <div style="position:absolute;inset:0;background:radial-gradient(ellipse 80% 60% at 60% 0%,rgba(26,111,232,0.14) 0%,transparent 70%);pointer-events:none;"></div>
   <div style="max-width:900px;margin:0 auto;position:relative;z-index:1;">
-
     <nav class="breadcrumb" style="margin-bottom:24px;">
-      <a href="/">Home</a>
-      <span>›</span>
-      <span class="current">Bowling Green, KY Movers</span>
+      <a href="/">Home</a><span>›</span><span class="current">Hopkinsville, KY Movers</span>
     </nav>
-
-    <div class="section-label" style="margin-bottom:16px;">Bowling Green, KY</div>
+    <div class="section-label" style="margin-bottom:16px;">Hopkinsville, KY</div>
     <h1 style="font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:clamp(2.8rem,7vw,4.8rem);line-height:1;letter-spacing:-0.02em;color:#fff;margin-bottom:20px;">
-      Moving Company in<br><span style="color:#1A6FE8;">Bowling Green, KY</span>
+      Moving Company in<br><span style="color:#1A6FE8;">Hopkinsville, KY</span>
     </h1>
     <p style="font-size:1.125rem;line-height:1.7;color:rgba(248,250,252,0.65);max-width:640px;margin-bottom:36px;">
-      MaxLoad Moving Co. provides licensed and insured moving services throughout Bowling Green and Warren County. Whether you're relocating a home, an office, or a single specialty item — we show up on time and get it done right.
+      MaxLoad Moving Co. provides professional, licensed and insured moving services throughout Hopkinsville and Christian County, Kentucky. Local moves, interstate relocations, and specialty items handled with care every time.
     </p>
     <div style="display:flex;gap:16px;flex-wrap:wrap;">
-      <a href="tel:2708933360" class="btn-primary">
-        Call for a Free Quote
-      </a>
-      <a href="/#contact" style="display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.14);color:#fff;font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:1rem;letter-spacing:0.06em;text-transform:uppercase;padding:14px 28px;border-radius:8px;text-decoration:none;transition:background 0.2s ease,border-color 0.2s ease,transform 0.2s cubic-bezier(.34,1.56,.64,1);" onmouseover="this.style.background='rgba(255,255,255,0.1)';this.style.transform='translateY(-2px)'" onmouseout="this.style.background='rgba(255,255,255,0.06)';this.style.transform='translateY(0)'">
-        Request Online
-      </a>
+      <a href="tel:2708933360" class="btn-primary">Call for a Free Quote</a>
+      <a href="/#contact" style="display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.14);color:#fff;font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:1rem;letter-spacing:0.06em;text-transform:uppercase;padding:14px 28px;border-radius:8px;text-decoration:none;transition:background 0.2s ease,transform 0.2s cubic-bezier(.34,1.56,.64,1);" onmouseover="this.style.background='rgba(255,255,255,0.1)';this.style.transform='translateY(-2px)'" onmouseout="this.style.background='rgba(255,255,255,0.06)';this.style.transform='translateY(0)'">Request Online</a>
     </div>
-
   </div>
 </section>
 
-<!-- WHY MAXLOAD IN BOWLING GREEN -->
+<!-- WHY MAXLOAD -->
 <section style="padding:80px 24px;background:#0F172A;">
   <div style="max-width:1100px;margin:0 auto;">
     <div style="text-align:center;margin-bottom:56px;">
       <div class="section-label" style="margin-bottom:12px;">Why Choose Us</div>
-      <h2 style="font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:clamp(2rem,5vw,3rem);line-height:1.05;letter-spacing:-0.02em;color:#fff;">
-        Bowling Green's Trusted Moving Team
-      </h2>
-      <p style="font-size:1rem;line-height:1.7;color:rgba(248,250,252,0.55);max-width:560px;margin:16px auto 0;">
-        We're based in nearby Russellville, KY — close enough to know Bowling Green's neighborhoods, fast enough to get there when you need us.
-      </p>
+      <h2 style="font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:clamp(2rem,5vw,3rem);line-height:1.05;letter-spacing:-0.02em;color:#fff;">Hopkinsville's Trusted Moving Team</h2>
+      <p style="font-size:1rem;line-height:1.7;color:rgba(248,250,252,0.55);max-width:560px;margin:16px auto 0;">We're based in Russellville — less than 30 minutes from Hopkinsville. Close enough to respond fast, experienced enough to handle any move in Christian County.</p>
     </div>
-
     <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:24px;">
       <div class="service-card">
         <div style="width:44px;height:44px;background:rgba(26,111,232,0.15);border:1px solid rgba(26,111,232,0.3);border-radius:10px;display:flex;align-items:center;justify-content:center;margin-bottom:16px;">
           <svg width="22" height="22" fill="none" stroke="#1A6FE8" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
         </div>
         <h3 style="font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:1.2rem;color:#fff;margin-bottom:8px;">Licensed & Insured</h3>
-        <p style="font-size:0.9rem;line-height:1.65;color:rgba(248,250,252,0.55);">Fully licensed with liability and cargo insurance. Your belongings are protected from pickup to delivery.</p>
+        <p style="font-size:0.9rem;line-height:1.65;color:rgba(248,250,252,0.55);">Full liability and cargo insurance on every job. Your belongings are protected from pickup to delivery.</p>
       </div>
       <div class="service-card">
         <div style="width:44px;height:44px;background:rgba(26,111,232,0.15);border:1px solid rgba(26,111,232,0.3);border-radius:10px;display:flex;align-items:center;justify-content:center;margin-bottom:16px;">
           <svg width="22" height="22" fill="none" stroke="#1A6FE8" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
         </div>
         <h3 style="font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:1.2rem;color:#fff;margin-bottom:8px;">On Time, Every Time</h3>
-        <p style="font-size:0.9rem;line-height:1.65;color:rgba(248,250,252,0.55);">We respect your schedule. Our crews arrive when we say we will and work efficiently to finish on budget.</p>
+        <p style="font-size:0.9rem;line-height:1.65;color:rgba(248,250,252,0.55);">We show up when we say we will and work efficiently so you're settled in without wasting your day.</p>
       </div>
       <div class="service-card">
         <div style="width:44px;height:44px;background:rgba(26,111,232,0.15);border:1px solid rgba(26,111,232,0.3);border-radius:10px;display:flex;align-items:center;justify-content:center;margin-bottom:16px;">
           <svg width="22" height="22" fill="none" stroke="#1A6FE8" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
         </div>
         <h3 style="font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:1.2rem;color:#fff;margin-bottom:8px;">No Hidden Fees</h3>
-        <p style="font-size:0.9rem;line-height:1.65;color:rgba(248,250,252,0.55);">Transparent, written estimates before every move. The price we quote is the price you pay.</p>
+        <p style="font-size:0.9rem;line-height:1.65;color:rgba(248,250,252,0.55);">Written estimates before we start. The price we quote is the price you pay — no surprises on moving day.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- SERVICES IN BOWLING GREEN -->
+<!-- SERVICES -->
 <section style="padding:80px 24px;background:#0B1120;">
   <div style="max-width:1100px;margin:0 auto;">
     <div style="text-align:center;margin-bottom:56px;">
       <div class="section-label" style="margin-bottom:12px;">What We Offer</div>
-      <h2 style="font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:clamp(2rem,5vw,3rem);line-height:1.05;letter-spacing:-0.02em;color:#fff;">
-        Moving Services in Bowling Green
-      </h2>
+      <h2 style="font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:clamp(2rem,5vw,3rem);line-height:1.05;letter-spacing:-0.02em;color:#fff;">Moving Services in Hopkinsville</h2>
     </div>
-
     <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:24px;">
       <div class="service-card">
         <h3 style="font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:1.25rem;color:#fff;margin-bottom:8px;">Residential Moving</h3>
-        <p style="font-size:0.9rem;line-height:1.65;color:rgba(248,250,252,0.55);">Moving into or out of a Bowling Green home? We handle apartments, single-family homes, and large estates with the same level of care. Furniture blankets and straps included.</p>
+        <p style="font-size:0.9rem;line-height:1.65;color:rgba(248,250,252,0.55);">Moving into or out of a Hopkinsville home? From apartments off Fort Campbell Blvd to large homes in the Lakewood area, we handle every residential move with the same level of care.</p>
       </div>
       <div class="service-card">
         <h3 style="font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:1.25rem;color:#fff;margin-bottom:8px;">Commercial Moving</h3>
-        <p style="font-size:0.9rem;line-height:1.65;color:rgba(248,250,252,0.55);">Office relocations, retail moves, and business transitions in the Bowling Green area handled efficiently — minimizing downtime and protecting your equipment.</p>
+        <p style="font-size:0.9rem;line-height:1.65;color:rgba(248,250,252,0.55);">Office and business relocations in Hopkinsville and Christian County. We minimize downtime and protect your equipment so your team is back to work fast.</p>
       </div>
       <div class="service-card">
         <h3 style="font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:1.25rem;color:#fff;margin-bottom:8px;">Interstate Moving</h3>
-        <p style="font-size:0.9rem;line-height:1.65;color:rgba(248,250,252,0.55);">Relocating out of Kentucky? We handle long-distance moves from Bowling Green to any destination in the US, with careful packing and real-time coordination.</p>
+        <p style="font-size:0.9rem;line-height:1.65;color:rgba(248,250,252,0.55);">Relocating out of Kentucky? Hopkinsville sits near the Tennessee border. We handle long-distance moves from Christian County to anywhere in the US.</p>
       </div>
       <div class="service-card">
         <h3 style="font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:1.25rem;color:#fff;margin-bottom:8px;">Specialty & Piano Moving</h3>
-        <p style="font-size:0.9rem;line-height:1.65;color:rgba(248,250,252,0.55);">Pianos, gun safes, antiques, and large appliances require specialized equipment. We have the tools and training to move heavy and fragile items safely.</p>
+        <p style="font-size:0.9rem;line-height:1.65;color:rgba(248,250,252,0.55);">Pianos, gun safes, antiques, and large appliances. We have the right equipment and experience to move your most valuable and difficult items safely.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ABOUT / LOCAL CONTEXT -->
+<!-- LOCAL CONTEXT -->
 <section style="padding:80px 24px;background:#0F172A;">
   <div style="max-width:800px;margin:0 auto;text-align:center;">
     <div class="section-label" style="margin-bottom:16px;">Locally Rooted</div>
-    <h2 style="font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:clamp(2rem,5vw,3rem);line-height:1.05;letter-spacing:-0.02em;color:#fff;margin-bottom:20px;">
-      We Know Bowling Green
-    </h2>
+    <h2 style="font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:clamp(2rem,5vw,3rem);line-height:1.05;letter-spacing:-0.02em;color:#fff;margin-bottom:20px;">We Know Christian County</h2>
     <p style="font-size:1rem;line-height:1.75;color:rgba(248,250,252,0.6);margin-bottom:16px;">
-      Bowling Green is the third-largest city in Kentucky and one of the fastest-growing areas in the Southeast. From the neighborhoods around Western Kentucky University to the newer subdivisions off of Campbell Lane and Lovers Lane, we've moved families and businesses across the whole metro area.
+      Hopkinsville is the largest city in western Kentucky's Pennyroyal region and home to a significant military community near Fort Campbell. Whether you're a service member on PCS orders, a family upgrading to a bigger home, or a business relocating downtown — we bring the same professional, careful service to every job.
     </p>
     <p style="font-size:1rem;line-height:1.75;color:rgba(248,250,252,0.6);">
-      Our base in Russellville is just 30 minutes away — close enough to get to you quickly, and familiar enough with Warren County that nothing on moving day surprises us. We serve Bowling Green, Smiths Grove, Oakland, and all surrounding Warren County communities.
+      From our base in Russellville, Hopkinsville is under 30 minutes away. We serve all of Christian County including Pembroke, Crofton, Oak Grove, and surrounding communities. Fast response, flexible scheduling, and a team that treats your move like it's our own.
     </p>
   </div>
 </section>
@@ -280,19 +229,15 @@
 <section style="padding:80px 24px;background:linear-gradient(135deg,#0B1120 0%,#0F172A 100%);border-top:1px solid rgba(26,111,232,0.18);">
   <div style="max-width:700px;margin:0 auto;text-align:center;">
     <h2 style="font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:clamp(2.2rem,5vw,3.2rem);line-height:1.05;letter-spacing:-0.02em;color:#fff;margin-bottom:16px;">
-      Ready to Move in <span style="color:#1A6FE8;">Bowling Green?</span>
+      Ready to Move in <span style="color:#1A6FE8;">Hopkinsville?</span>
     </h2>
-    <p style="font-size:1rem;line-height:1.7;color:rgba(248,250,252,0.55);margin-bottom:36px;">
-      Call us today or submit a quote request online. We'll get back to you fast with a clear, written estimate — no surprises, no pressure.
-    </p>
+    <p style="font-size:1rem;line-height:1.7;color:rgba(248,250,252,0.55);margin-bottom:36px;">Call us or submit a request online. You'll get a clear, written estimate fast — no obligation, no pressure.</p>
     <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
       <a href="tel:2708933360" class="btn-primary" style="font-size:1.1rem;padding:16px 36px;">
         <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
         (270) 893-3360
       </a>
-      <a href="/#contact" style="display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.14);color:#fff;font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:1rem;letter-spacing:0.06em;text-transform:uppercase;padding:16px 36px;border-radius:8px;text-decoration:none;transition:background 0.2s ease,border-color 0.2s ease,transform 0.2s cubic-bezier(.34,1.56,.64,1);" onmouseover="this.style.background='rgba(255,255,255,0.1)';this.style.transform='translateY(-2px)'" onmouseout="this.style.background='rgba(255,255,255,0.06)';this.style.transform='translateY(0)'">
-        Get a Free Quote
-      </a>
+      <a href="/#contact" style="display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.14);color:#fff;font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:1rem;letter-spacing:0.06em;text-transform:uppercase;padding:16px 36px;border-radius:8px;text-decoration:none;transition:background 0.2s ease,transform 0.2s cubic-bezier(.34,1.56,.64,1);" onmouseover="this.style.background='rgba(255,255,255,0.1)';this.style.transform='translateY(-2px)'" onmouseout="this.style.background='rgba(255,255,255,0.06)';this.style.transform='translateY(0)'">Get a Free Quote</a>
     </div>
   </div>
 </section>
@@ -302,18 +247,15 @@
   <div style="max-width:1200px;margin:0 auto;">
     <div style="display:grid;grid-template-columns:2fr 1fr 1fr;gap:48px;margin-bottom:48px;">
       <div>
-        <img src="brand_assets/drive-download-20260417T023334Z-3-001/updated-logo.jpeg"
-             alt="MaxLoad Moving Co."
-             style="height:44px;width:auto;margin-bottom:16px;mix-blend-mode:screen;" />
-        <p style="font-size:0.875rem;line-height:1.7;color:rgba(248,250,252,0.5);max-width:280px;margin-bottom:20px;">
-          Licensed & insured movers based in Russellville, KY — serving Bowling Green, Franklin, Clarksville TN, and surrounding areas.
-        </p>
+        <img src="brand_assets/drive-download-20260417T023334Z-3-001/updated-logo.jpeg" alt="MaxLoad Moving Co." style="height:44px;width:auto;margin-bottom:16px;mix-blend-mode:screen;" />
+        <p style="font-size:0.875rem;line-height:1.7;color:rgba(248,250,252,0.5);max-width:280px;margin-bottom:20px;">Licensed & insured movers based in Russellville, KY — serving Hopkinsville KY, Bowling Green KY, Clarksville TN, Franklin KY, and surrounding areas.</p>
         <a href="tel:2708933360" style="color:#1A6FE8;font-weight:700;font-size:1.05rem;text-decoration:none;" onmouseover="this.style.color='#3D8EF5'" onmouseout="this.style.color='#1A6FE8'">(270) 893-3360</a>
       </div>
       <div>
         <h4 style="font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:0.85rem;letter-spacing:0.12em;text-transform:uppercase;color:rgba(248,250,252,0.4);margin-bottom:16px;">Service Areas</h4>
         <nav style="display:flex;flex-direction:column;gap:8px;">
-          <a href="/bowling-green-movers.html" style="font-size:0.875rem;color:#1A6FE8;text-decoration:none;">Bowling Green, KY</a>
+          <a href="/hopkinsville-movers.html"  style="font-size:0.875rem;color:#1A6FE8;text-decoration:none;">Hopkinsville, KY</a>
+          <a href="/bowling-green-movers.html" style="font-size:0.875rem;color:rgba(248,250,252,0.6);text-decoration:none;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='rgba(248,250,252,0.6)'">Bowling Green, KY</a>
           <a href="/clarksville-movers.html"   style="font-size:0.875rem;color:rgba(248,250,252,0.6);text-decoration:none;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='rgba(248,250,252,0.6)'">Clarksville, TN</a>
           <a href="/franklin-ky-movers.html"   style="font-size:0.875rem;color:rgba(248,250,252,0.6);text-decoration:none;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='rgba(248,250,252,0.6)'">Franklin, KY</a>
           <a href="/"                          style="font-size:0.875rem;color:rgba(248,250,252,0.6);text-decoration:none;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='rgba(248,250,252,0.6)'">Russellville, KY</a>
@@ -346,6 +288,5 @@
     footer [style*="grid-template-columns:2fr 1fr 1fr"] { grid-template-columns:1fr !important; gap:32px !important; }
   }
 </style>
-
 </body>
 </html>
